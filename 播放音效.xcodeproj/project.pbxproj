@@ -15,6 +15,7 @@
 		BD0B5BC91DB866CC007F0F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0B5BC71DB866CC007F0F26 /* LaunchScreen.storyboard */; };
 		BD0B5BD41DB866CC007F0F26 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0B5BD31DB866CC007F0F26 /* ____Tests.m */; };
 		BD0B5BDF1DB866CC007F0F26 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0B5BDE1DB866CC007F0F26 /* ____UITests.m */; };
+		BD0B5BEF1DB86A22007F0F26 /* bugai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD0B5BEE1DB86A22007F0F26 /* bugai.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BD0B5BDA1DB866CC007F0F26 /* 播放音效UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放音效UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0B5BDE1DB866CC007F0F26 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		BD0B5BE01DB866CC007F0F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0B5BEE1DB86A22007F0F26 /* bugai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bugai.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		BD0B5BB91DB866CC007F0F26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD0B5BEE1DB86A22007F0F26 /* bugai.mp3 */,
 				BD0B5BBA1DB866CC007F0F26 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -249,6 +252,7 @@
 				BD0B5BC91DB866CC007F0F26 /* LaunchScreen.storyboard in Resources */,
 				BD0B5BC61DB866CC007F0F26 /* Assets.xcassets in Resources */,
 				BD0B5BC41DB866CC007F0F26 /* Main.storyboard in Resources */,
+				BD0B5BEF1DB86A22007F0F26 /* bugai.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				BD0B5BE51DB866CC007F0F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0B5BE61DB866CC007F0F26 /* Build configuration list for PBXNativeTarget "播放音效Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				BD0B5BE81DB866CC007F0F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0B5BE91DB866CC007F0F26 /* Build configuration list for PBXNativeTarget "播放音效UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				BD0B5BEB1DB866CC007F0F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

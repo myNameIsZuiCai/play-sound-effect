@@ -7,23 +7,25 @@
 //
 
 #import "ViewController.h"
-
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController ()
-
+@property(assign,nonatomic) SystemSoundID soundID;
 @end
 
 @implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+-(SystemSoundID)soundID{
+    if (_soundID==0) {
+        
+        //生成soundID
+        CFURLRef url=(__bridge CFURLRef)[[NSBundle mainBundle] URLForResource:@"bugai.mp3" withExtension:nil];
+        AudioServicesCreateSystemSoundID(url, &_soundID);
+    }
+    return _soundID;
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+//    AudioServicesPlaySystemSound(soundID);
+    AudioServicesPlayAlertSound(self.soundID);
 }
-
 
 @end
